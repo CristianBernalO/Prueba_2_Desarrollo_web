@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="assets/Librerias/Boostrap/css/bootstrap.min.css">
   </head>
   <body>
+    <!-- Agregando navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom">
+      <!-- Logo de la empresa -->
       <img
         src="assets/img/ComidaDeliciosa1.png"
         class="d-inline-block align-top logotipo"
         alt="Logo"
       />
-      <h1 class="navbar-brand">Comidas Deliciosas SA</h1>
+      <h1 class="navbar-brand">Comidas Deliciosas S.A.</h1>
       <button
         class="navbar-toggler"
         type="button"
@@ -29,25 +31,22 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Inicio <span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sobre Nosotros</a>
+            <a class="nav-link active" href="#">Sobre Nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled"
-              ><i class="fa-solid fa-square-phone"></i>Contacto</a
-            >
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-square-phone"></i>Contacto</a>
           </li>
         </ul>
       </div>
     </nav>
-    <!-- EMPEZANDO EL CONTENIDO DESPUES DEL NAVBAR -->
+    <!-- Container para agregar textos, tablas y botones -->
     <div class="container rounded">
       <div class="row mt-4">
         <div class="col-lg-12 mt-4">
@@ -58,7 +57,7 @@
       <div class="row my-4">
         <div class="col-lg-12">
           <p class="text-center">
-            ComidasDeliciosas S.A. ofrece un amplio catálogo de recetas de
+            Comidas Deliciosas S.A. ofrece un amplio catálogo de recetas de
             diversas categorías, proporcionando una experiencia culinaria única
             con recetas detalladas y fáciles de seguir. Próximamente, nuestra
             web permitirá explorar y visualizar recetas específicas por
@@ -68,6 +67,7 @@
         </div>
       </div>
       <hr />
+      <!-- Row para el botón consultar -->
       <div class="row mt-5">
         <div class="col-lg-12 mx-auto">
           <button id="consultar" class="btn btn-primary">
@@ -76,6 +76,7 @@
           </button>
         </div>
       </div>
+      <!-- Divs para insertar las tablas -->
       <div id="tabla-row" class="row my-5"></div>
       <div class="row my-4">
         <div id="spinner" class="col-lg-12 mx-auto"></div>
@@ -85,5 +86,12 @@
     <script src="assets/Librerias/Jquery/jquery-3.7.1.min.js"></script>
     <script src="assets/js/funciones.js"></script>
     <script src="assets/js/prueba.js"></script>
+    <script
+      src="https://kit.fontawesome.com/54c7fd9f54.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
+<style>
+
+</style>
