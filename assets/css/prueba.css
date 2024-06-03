@@ -1,0 +1,38 @@
+.logotipo {
+    width: 50px;
+    height: 50px;
+    }
+.spinner {
+    width: 36px;
+    height: 36px;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    border-left-color: #7d47ff;
+    animation: spin 1s ease infinite;
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+.navbar-custom {
+    background-color: #82e0aa;
+}
+body {
+    background-image: url("../img/Fondo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    background: rgb(135, 205, 76);
+    background: linear-gradient(
+      214deg,
+      rgba(135, 205, 76, 1) 19%,
+      rgba(236, 235, 254, 1) 46%,
+      rgba(227, 137, 250, 1) 86%
+    );
+}
